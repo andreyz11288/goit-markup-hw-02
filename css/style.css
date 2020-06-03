@@ -1,55 +1,60 @@
-:root{
-    --First: #212121;
-    --second: #757575;
-    --third: #FFFFFF;
-    --link:#2196F3;
+:root {
+  --First: #212121;
+  --second: #757575;
+  --third: #ffffff;
+  --link: #2196f3;
 }
-body{
-    color: var(--second);
+
+body {
+  color: var(--second);
 }
-h2, h3{
-    color: var(--First);
+
+h2,
+h3 {
+  color: var(--First);
 }
-li{
-    list-style: none;
+
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
-.header-logo{
-    color: var(--link);
+.header-logo {
+  color: var(--link);
 }
-.logo-studio{
-    color: #000000;;
+.logo-studio {
+  color: #000000;
 }
-.first{
-    color: var(--First);
+.first {
+  color: var(--First);
 }
 .first:hover,
-.first:focus{
-    color: var(--link);
+.first:focus {
+  color: var(--link);
 }
-.content-text{
-    color: var(--third);
-    border: 1px solid #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.content-text {
+  color: var(--third);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.invisible{
-    color: var(--third);
+.invisible {
+  color: var(--third);
 }
 .nav-email,
-.nav-tel{
-    color: var(--second);
+.nav-tel {
+  color: var(--second);
 }
 .nav-tel:hover,
-.nav-tel:focus{
-    color: var(--link);
+.nav-tel:focus {
+  color: var(--link);
 }
 .nav-email:hover,
-.nav-email:focus{
-    color: var(--link);
-} 
+.nav-email:focus {
+  color: var(--link);
+}
 .color-white {
-    color: var(--third);    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--third);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
