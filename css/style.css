@@ -52,7 +52,7 @@ a {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .invisible {
-  visibility: hidden
+  visibility: hidden;
 }
 .nav-email,
 .nav-tel {
@@ -87,7 +87,7 @@ a {
 .color-white {
   color: var(--third);
 }
-.overlay span {
+.overlay button {
   background-color: var(--link);
 }
 footer {
@@ -114,7 +114,16 @@ footer {
   color: var(--second);
 }
 .site a:hover,
-.site:focus {
+.site a:focus {
   color: var(--third);
   background-color: var(--link);
+}
+.blackout:hover,
+.blackout:focus {
+  background-color: var(--bgp);
+}
+.overlay button:hover,
+.overlay button:focus {
+  color: var(--First);
+  background-color: rgba(0, 0, 0, 0.25);
 }
