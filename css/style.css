@@ -74,7 +74,7 @@ a {
   color: var(--third);
   background-color: var(--link);
 }
-.link2 p {
+.link2 a > p {
   color: var(--second);
 }
 .link {
@@ -107,7 +107,7 @@ footer {
   color: var(--third);
 }
 .clients a:hover,
-.client a:focus {
+.clients a:focus {
   background-color: var(--link);
 }
 .site a {
@@ -126,4 +126,8 @@ footer {
 .overlay button:focus {
   color: var(--First);
   background-color: rgba(0, 0, 0, 0.25);
+}
+.hov-text {
+  color: var(--third);
+  background-color: var(--link);
 }
