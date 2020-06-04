@@ -128,8 +128,14 @@ footer {
   background-color: rgba(0, 0, 0, 0.25);
 }
 .hov-text {
-  width: 322px;
+  width: 323px;
   height: 168;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
   color: var(--third);
   background-color: var(--link);
 }
