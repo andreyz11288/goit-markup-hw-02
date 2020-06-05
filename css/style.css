@@ -1,20 +1,21 @@
 :root {
-  --First: #212121;
-  --second: #757575;
-  --third: #ffffff;
+  --main-color: #212121;
+  --second-color: #757575;
+  --white-color: #ffffff;
   --link: #2196f3;
   --bgp: rgba(47, 48, 58, 0.8);
   --bgp-features: #f5f4fa;
   --bgp-footer: #2f303a;
+  --black-color: #000000;
 }
 
 body {
-  color: var(--second);
+  color: var(--second-color);
 }
 
 h2,
 h3 {
-  color: var(--First);
+  color: var(--main-color);
 }
 
 li {
@@ -29,13 +30,13 @@ a {
   color: var(--link);
 }
 .logo-studio {
-  color: #000000;
+  color: var(--black-color);
 }
 .logo-studio-footer {
-  color: var(--third);
+  color: var(--white-color);
 }
 .first {
-  color: var(--First);
+  color: var(--main-color);
 }
 .first:hover,
 .first:focus {
@@ -47,8 +48,8 @@ a {
   background: rgba(47, 48, 58, 0.8);
 }
 .overlay h1 {
-  color: var(--third);
-  border: 1px solid #000000;
+  color: var(--white-color);
+  border: 1px solid var(--black-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .invisible {
@@ -56,7 +57,7 @@ a {
 }
 .nav-email,
 .nav-tel {
-  color: var(--second);
+  color: var(--second-color);
 }
 .nav-tel:hover,
 .nav-tel:focus {
@@ -67,15 +68,15 @@ a {
   color: var(--link);
 }
 .filter {
-  color: var(--First);
+  color: var(--main-color);
 }
 .filter:hover,
 .filter:focus {
-  color: var(--third);
+  color: var(--white-color);
   background-color: var(--link);
 }
 .link2 a > p {
-  color: var(--second);
+  color: var(--second-color);
 }
 .link {
   background-color: var(--bgp-features);
@@ -85,7 +86,7 @@ a {
   background-color: var(--link);
 }
 .color-white {
-  color: var(--third);
+  color: var(--white-color);
 }
 .overlay button {
   background-color: var(--link);
@@ -97,25 +98,25 @@ footer {
   background-color: var(--bgp);
 }
 #address a {
-  color: var(--second);
+  color: var(--second-color);
 }
 #address a:hover,
 #address a:focus {
   color: var(--link);
 }
 .index {
-  color: var(--third);
+  color: var(--white-color);
 }
 .clients a:hover,
 .clients a:focus {
   background-color: var(--link);
 }
 .site a {
-  color: var(--second);
+  color: var(--second-color);
 }
 .site a:hover,
 .site a:focus {
-  color: var(--third);
+  color: var(--white-color);
   background-color: var(--link);
 }
 .blackout:hover,
@@ -124,7 +125,7 @@ footer {
 }
 .overlay button:hover,
 .overlay button:focus {
-  color: var(--First);
+  color: var(--main-color);
   background-color: rgba(0, 0, 0, 0.25);
 }
 .hov-text {
